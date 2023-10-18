@@ -1,0 +1,90 @@
+/* untuk Navbar web */
+body{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+div.navbar{
+
+    padding: 10px;
+}
+
+div.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.navbar ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+div.navbar ul li:hover{
+    background-color: aquamarine;
+}
+
+div.navbar ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 17px;
+}
+
+div.logo1{
+    color: white;
+}
+
+div.navbar ul li i{
+    font-size: 30px;
+    color: white;
+}
+
+/* Content img */
+div.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.ad img{
+    width: 100%;
+}
+
+div.ad h1{
+    font-size: 60px;
+    top: 80px;
+    left: 510px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ad p{
+    font-size: 20px;
+    top: 180px;
+    left: 568px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ad a{
+    font-size: 20px;
+    top: 230px;
+    left: 595px;
+    position: absolute;
+    text-align: center;
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
